@@ -9,8 +9,16 @@ IOC 创建对象的方式：
 
 DI 依赖注入：依赖， bean 对象的创建依赖容器。注入：bean对象的所有属性由容器来注入。
 1. 构造器注入
-2. set 方法注入
+2. set 方法注入 （重点）
 3. 拓展方式注入
+
+普通值 value 注入
+bean 注入 ref
+数组 注入 标签 array, value
+
+p:porperity c: constructor p 命名空间，c 命名空间， 需要导入 xml 约束。
+属性， 有参构造函数
+
 
 
 
