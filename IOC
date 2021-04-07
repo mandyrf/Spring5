@@ -19,6 +19,8 @@ bean 注入 ref
 p:porperity c: constructor p 命名空间，c 命名空间， 需要导入 xml 约束。
 属性， 有参构造函数
 
+bean的作用域：
+scope 默认是单例模式 singleton， 只创建一个对象
+prototype 原型模式，每次 getBean 的都是一个新的对象
 
-
-
+其余的 request, session, application 这些个只能在web 开发中使用。
